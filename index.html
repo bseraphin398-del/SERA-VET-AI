@@ -1,4 +1,4 @@
-em<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,15 +35,7 @@ em<!DOCTYPE html>
 <div class="composer" id="composer"><div class="composeinner"><textarea id="prompt" rows="2" placeholder="Ask SERA VET AI a veterinary question…"></textarea><div class="composefoot"><small>Demo replies only · Not for emergency diagnosis</small><button class="send" id="sendBtn">Send ↑</button></div></div></div>
 </main></div>
 <script>
-constconst firebaseConfig = {
-  apiKey: "AIzaSyAqxfLj65YI-gP26vlOTn9wbA2u8xJPOhw",
-  authDomain: "sera-vet-ai.firebaseapp.com",
-  projectId: "sera-vet-ai",
-  storageBucket: "sera-vet-ai.firebasestorage.app",
-  messagingSenderId: "847564920944",
-  appId: "1:847564920944:web:f877c6456b95e2acd7bcb5",
-  measurementId: "G-SV2PLSKTGW"
-};, $$=s=>document.querySelectorAll(s);let currentPage='home',filter='all',quizIndex=0,score=0;
+const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);let currentPage='home',filter='all',quizIndex=0,score=0;
 const diseases=[
 {name:'Mastitis',species:'Cattle',type:'infectious',signs:'An abnormal udder or milk, pain, heat, swelling, and sometimes fever or reduced appetite.',note:'A veterinarian may examine milk and recommend testing and appropriate treatment. Severe illness needs urgent care.'},
 {name:'Foot-and-mouth disease (FMD)',species:'Cattle, sheep, goats, pigs',type:'infectious',signs:'Fever, blisters or erosions in the mouth and on feet, drooling, and lameness.',note:'Highly contagious and often reportable. Isolate affected animals and contact veterinary or animal-health authorities immediately.'},
